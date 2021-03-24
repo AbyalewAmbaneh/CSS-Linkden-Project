@@ -1,0 +1,16 @@
+img{  /* type selectors*/ 
+    width: 300px;
+}
+body{
+    background-color: #6b705c; /*-- https://coolors.co/palettes/trending */
+    font-size: 12px;
+}
+h1{
+    color: blue;
+    font-style: italic;
+    font-size: 34px;
+    font-family: Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+h2{
+    color: yellow;
+}
