@@ -1,16 +1,133 @@
-img{  /* type selectors*/ 
-    width: 300px;
-}
+/* Global Style
+-----------------------------------------------------------------------------------------------------*/
+html {                  /* the BOx-Model FIX --> we are now thinking every box as from the border line*/
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
 body{
-    background-color: #6b705c; /*-- https://coolors.co/palettes/trending */
+    background-color: red; /*-- https://coolors.co/palettes/trending
     font-size: 12px;
+    /* background-image: url(/CSS-Linkden-Project/images/sharon-mccutcheon-unsplash.jpg);
+    background-repeat: no-repeat; */
+    background-position: 370px 20px; /* ?? */
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat' , 'sans-serif';
+    font-size: 15px;
+    line-height: 1.5;
 }
+section {
+    padding: 0;
+    margin: 0;
+    border: 0 none;
+}
+
+header {
+    text-align: center;
+}
+
 h1{
-    color: blue;
+    margin: 0;
+    text-align: center;
+    color: rgb(51, 255, 0);
     font-style: italic;
     font-size: 34px;
     font-family: Cochin, Georgia, Times, 'Times New Roman', serif;
 }
+
 h2{
-    color: yellow;
+     margin: 0;
+    color: sienna;
 }
+header h2 {
+    text-decoration-line: underline;
+}
+
+img{  /* type selectors*/ 
+    width: 100px;
+}
+
+a{
+    color: red;
+}
+
+a:visited{
+    color: green;
+}
+
+a:hover{
+    color: salmon;
+    background-color: rgb(100, 98, 98);
+}
+.content-wrapper{
+    width: 1000px;
+    margin: 0 auto;
+    padding: 60px 0;
+}
+
+/* Profile
+-----------------------------------------------------------------------------------------------------*/
+header{
+    background-color: #2f3061 ;
+    color: whitesmoke;
+    font-size: larger;
+    margin: 0;
+    padding: 4px;
+}
+
+/* Summery
+-----------------------------------------------------------------------------------------------------*/
+.Summery{
+    background-color: #c5baaf ;
+    color: brown;
+    font-size: medium;
+    margin: 0;
+}
+
+/* Project
+-----------------------------------------------------------------------------------------------------*/
+.projects {
+    background-color: #f7f7f7;
+}
+img{
+    float: right;
+    width: 400px;
+    border-radius: 400px;
+}
+
+/* Education
+-----------------------------------------------------------------------------------------------------*/
+.Education{
+    color: whitesmoke;
+    background-color: burlywood;
+    margin: 0;
+    text-align: center;
+}
+
+
+.Work_Exp{
+    background-color: #A1c6D7;
+}
+
+
+/* Footer
+-----------------------------------------------------------------------------------------------------*/
+footer{
+    background-color: darkgray;
+    margin-top: -19.5px ;
+       border-spacing: 0;
+}
+#email{
+    color: darkgreen;
+    background-color: rgb(49, 42, 33);
+    padding: 3px;
+    border-radius: 4px;    
+
+
+}
+
+
+
+
